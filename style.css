@@ -1,0 +1,202 @@
+.container{
+	padding:0 5px;
+	box-sizing:border-box;
+	margin:0 auto;
+	width:100%;
+	max-width:1200px;
+}
+h1{
+text-align:center;
+
+
+}
+.parent{
+min-height:300px;
+	display:flex;
+	justify-content:space-around;
+	margin-top:20px;
+	margin-top:0px;
+	margin-bottom:0px;
+	background-color:wheat;
+	
+	
+}
+.son{
+	height:200px;
+	width:30%;
+	margin:50px;
+	box-sizing:content-box;
+	border-radius:25px;
+	box-shadow:10px 5px 10px orange;
+	background: linear-gradient(45deg,#007bff,#6610f2);
+	/*animation:spin 3s linear infinite;*/
+	padding:10px;
+	margin:30px;
+}
+@keyframes spin{
+	from{
+	transform: rotate(0deg);
+	}
+	to{
+	transform: rotate(360deg);
+	}
+
+}
+.one{
+	 background:white;
+	}
+	.two{
+	 background:white;
+	}
+	.three{
+	 background:white;
+ }
+ .senior{
+	 min-height:500px;
+
+	 background-color:orange;
+	 
+ }
+ 
+ h1,h2{
+	color:white;
+ }
+
+ 
+ .pinterest{
+	 display:flex;
+	 justify-content:space-around;
+	 box-sizing:border-box;
+	 align-items:stretch;
+	 
+	  background-color:black;
+	  background-attachment: fixed;
+	  background-size:contain;
+	  background-repeat:repeat;
+	  background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('./images_1/babylon.jpg');
+	  width:100%;
+	  height:100dvh;
+	  margin-top:0;  
+ }
+ 
+ .senior{
+	padding-top:10px;
+ }
+ 
+ .footer{
+	height:75px;
+	background-color: black;
+	color:white;
+	text-align:center;
+	border-radius:16px;
+	
+ }
+ 
+ .btn:hover{
+	background:orange;
+	trasform:translateY(-2px);
+	cursor:pointer;
+	box-shadow:5px 10px 5px black;
+ }
+ a{
+	color:red;
+	text-decoration:0;
+	font-size:16px
+	hover:
+	;
+ }
+ h3{
+	box-shadow:5px 5px 5px orange;
+ }
+ .senior{
+	background-color:black;
+	background-position:contain;
+	
+	background-attachment: fixed;
+	background: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url('./images_1/babylon1.jpg');
+	background-clip:border-box;
+	background-size:cover;
+	height:500px;
+	margin-top:0;  
+	 
+ }
+ .transparent{
+	 padding:50px;
+	 
+	 text-align:start;
+	 width:50%;
+ }
+ .trans{
+	 margin:20px;
+	 padding:30px;
+	 text-align:left;
+ }
+ h3{
+	 padding:50px;
+	 margin:20px;
+	 padding:10px;
+	 color:white;
+	 font-size:24px;
+	 font-weight:bold;
+ }
+ button{
+	 background: 0range;
+	 margin:20px;
+	 padding:10px;
+	 font-weight:bold;
+	 font-size:16px;
+	 border-radius:20%;
+	 
+ }
+ #btn{ background:none;
+	 border:5px solid white;
+	 border-radius:20%;
+	 margin:20px;
+	 padding:10px;
+	 font-weight:bold;
+	 font-size:24px;
+ }
+ p.son{
+	  padding:50px;
+	 margin:20px;
+	 padding:10px;
+	 font-size:24px;
+	 font-weight:bold;
+	 color:black;
+ }
+ .head{
+	 text-align:center;
+	 margin:16px;
+ }
+ p{
+	padding:20px;
+	line-height:1.5;
+ }
+.mission{
+	padding:24px;
+	text-align:center;
+	border:1px solid red;
+	width:100%;
+	
+	background: white;
+}
+h2{
+	color:red;
+	margin:10px;
+}
+#help, span{
+	text-align:left;
+	margin:24px;
+	padding:20px;
+}
+.news{
+	
+}
+form{
+	margin:24px;
+}
+input{
+	width:50%;
+	box-sizing:border-box;
+	padding:16px;
+}

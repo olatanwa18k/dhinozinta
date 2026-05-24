@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+	<html lang ="en">
+		<head>
+			<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1.0">
+			<title>Home Page</title>
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css/">
+			<link rel="stylesheet" href="index.css"></link>
+			<style>
+			
+				.shop-list{
+					background-color:white;
+					border:1px solid none;
+					display:grid;
+					grid-template-columns:repeat(5, 1fr);
+					gap:24px;
+					padding:20px;
+					overflow-x: auto;
+					scrool-snap-type:x mandatory;
+					-webkit-overflow-scrolling:touch;
+				}
+				.product-card{
+					scroll-snap-align:start;
+					min-width:180px;
+					border:1px solid none;
+					background:#fff;
+					border-radius:10px;
+					box-shadow: 3px 2px 3px 3px grey;
+					transition:transform 0.2s ease, box-shadow 0.2s ease;
+				}
+				.product-card:hover{
+					background:#fff;
+					border-radius:5px;
+					box-shadow: 0px 5px 7px 5px darkorange;
+					transition:transform 0.2s ease, box-shadow 0.2s ease;
+				}
+				.product-card img{
+					
+					background:#fff;
+					width:100%;
+					height:250px;
+					object-fit:cover;
+					border-radius:6px;
+				}
+				.product-card button{
+					padding:14px;
+					background:cream;
+					border-radius:10px;
+					box-shadow:3px 2px 3px black;
+					transition:transform 0.2s ease, box-shadow 0.2s ease;
+					width:100%;
+					font-family:Comic Sans MS;
+				}
+				.product-card button:hover{
+					background:grey;
+					color:white;
+					font-size:16px;
+				}
+				.product-card h3{
+					text-align:center;
+					background:#fff;
+					color:darkorange;
+					font-family:Times New Roman serif;
+
+				}
+				.product-card .price{
+					padding:7px;
+					text-align:center;
+					background:#fff;
+					color:darkorange;
+					
+				}
+				.natives{
+					padding:20px;
+					background-color:grey;
+					color:white;
+					text-align:center;
+					font-family:Comic Sans MS;
+					font-style:Bold Italic;
+				}
+			</style>
+		</head>
+		<body>
+			<div class="container">
+				<div id = "headline">
+					<h4>Custom made for you - 100 days fitting guarantee - Premium European craftsmanship</h4>
+				</div>
+				
+				<nav class="nav-bar">
+					<div class="nav-container">
+						<button class="hamburger"><i class="fa-solid fa-bars"></i> ⇛ </button>
+						<ul class="nav-left">
+							<li><a href="index.html">shop</a></li>	
+							<li><a href="">stores</a></li>	
+							<li><a href="about.html">About</a></li>	
+							<li><a href="#">Books</a></li>	
+							<li><a href="#">style Journal</a></li>	
+							<li><a href="#">wedding Suit</a></li>
+						</ul>
+						
+						<div class="nav-logo">
+							<a href="#">DHINOZINTA</a>
+						</div>
+						
+						<div class="nav-right">
+							<a href="contact.html" class="btn-appointment">Book a free appointment</a>
+							<a href="#" class="login-btn">Login</a>
+							<a href="#"><i class="fa-solid fa-bag-shopping"></i></a>
+						</div>
+						<div class="cart">
+						<svg width="24" height="24" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+						<path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d=""M3 3h21.4 2M7 13h1014-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.184 1.707.707 1.707H17m0 0a2 2 0 100>
+					</div>	
+					</div>
+						
+				</nav>
+				
+				<div class="natives">
+					<h2>Men Natives</h2>
+				</div>
+				
+				<div class="shop-list">
+					<div class="product-card">
+						<img src="" alt="image one">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts></button>
+					</div>
+					
+					<div class="product-card">
+						<img src="" alt="image two">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image three">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image four">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image five">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image six">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					
+					<div class="product-card">
+						<img src="" alt="image seven">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image eight">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image nine">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image ten">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+				</div>
+				<div class="natives">
+					<h2>Men Natives</h2>
+				</div>
+				<div class="shop-list">
+					<div class="product-card">
+						<img src="" alt="image eleven">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					
+					<div class="product-card">
+						<img src="" alt="image twelve">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image thirteen">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image fourteen">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image fifteen">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image sixteen">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+				
+				
+					<div class="product-card">
+						<img src="" alt="image seventeen">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image eighteen">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+		
+					<div class="product-card">
+						<img src="" alt="image nineteen">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image twenty">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+				</div>
+				
+				<div class="natives">
+					<h2>Men Natives</h2>
+				</div>
+				
+				<div class="shop-list">
+					<div class="product-card">
+						<img src="" alt="image twenty-one">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					
+					<div class="product-card">
+						<img src="" alt="image twenty-two">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image twenty-three">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image twenty-four">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image twenty-five">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image twenty-six">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					
+					<div class="product-card">
+						<img src="" alt="image twenty-seven">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image twenty-eight">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+			
+					<div class="product-card">
+						<img src="" alt="image twenty-nine">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image thirty">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+				</div>
+				
+					<div class="natives">
+						<h2>Men Natives</h2>
+					</div>
+				
+				<div class="shop-list">
+					<div class="product-card">
+						<img src="" alt="image thirty-one">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					
+					<div class="product-card">
+						<img src="" alt="image thirty-two">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image thirty-three">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image thirty-four">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image thirty--five">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image thirty-six">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					
+					<div class="product-card">
+						<img src="" alt="image thirty-seven">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image thirty-eight">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image thirty-nine">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+					<div class="product-card">
+						<img src="" alt="image fourty">
+						<h3></h3>
+						<p class="price">#25,000</p>
+						<button>Add to Carts</button>
+					</div>
+				</div>
+				
+			<script>
+				const hamburger = document.querySelector('.hamburger'); 
+				const navLeft = document.querySelector('.nav-left');
+				
+				hamburger.addEventListener('click', function(){
+					navLeft.classList.toggle('show-mobile');
+				});
+			</script>
+		</div>
+		</body>
+	</html>
